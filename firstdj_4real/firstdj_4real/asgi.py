@@ -1,5 +1,5 @@
 """
-ASGI config for first_dj project.
+ASGI config for firstdj_4real project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'first_dj.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'firstdj_4real.settings')
 
 application = get_asgi_application()

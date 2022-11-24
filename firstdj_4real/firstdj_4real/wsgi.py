@@ -1,5 +1,5 @@
 """
-WSGI config for first_dj project.
+WSGI config for firstdj_4real project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'first_dj.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'firstdj_4real.settings')
 
 application = get_wsgi_application()
